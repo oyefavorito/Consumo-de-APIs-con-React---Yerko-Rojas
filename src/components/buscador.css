@@ -1,0 +1,15 @@
+#boton {
+  background-color: #f07d25;
+  margin-top: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#input {
+  margin-right: 20px;
+}

@@ -1,0 +1,57 @@
+header {
+  background: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/game-of-thrones/b/bf/Kings_Landing.jpg?width=960)
+    center/cover no-repeat;
+  height: 250px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img-top {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.card:hover .textosobrepuesto {
+  opacity: 1;
+}
+
+.textosobrepuesto {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 0.5s ease;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.5s ease;
+}
+img:hover {
+  filter: grayscale(100%);
+}
+
+.card-text {
+  margin-bottom: 0%;
+}
